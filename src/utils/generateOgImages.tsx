@@ -7,13 +7,13 @@ import siteOgImage from "./og-templates/site";
 const fetchFonts = async () => {
   // Regular Font
   const fontFileRegular = await fetch(
-    "https://astro-blog-tau-khaki.vercel.app/IBMPlexSansArabic-SemiBold.ttf"
+    "https://st.1001fonts.net/download/font/kaman.regular.otf"
   );
   const fontRegular: ArrayBuffer = await fontFileRegular.arrayBuffer();
 
   // Bold Font
   const fontFileBold = await fetch(
-    "https://astro-blog-tau-khaki.vercel.app/IBMPlexSansArabic-SemiBold.ttf"
+    "https://st.1001fonts.net/download/font/kaman.regular.otf"
   );
   const fontBold: ArrayBuffer = await fontFileBold.arrayBuffer();
 
