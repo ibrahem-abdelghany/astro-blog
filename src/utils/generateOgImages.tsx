@@ -7,13 +7,13 @@ import siteOgImage from "./og-templates/site";
 const fetchFonts = async () => {
   // Regular Font
   const fontFileRegular = await fetch(
-    "IBMPlexSansArabic-SemiBold.ttf"
+    "https://astro-blog-2udls3ghh-ibrahem-projects.vercel.app/IBMPlexSansArabic-SemiBold.ttf/IBMPlexSansArabic-SemiBold.ttf"
   );
   const fontRegular: ArrayBuffer = await fontFileRegular.arrayBuffer();
 
   // Bold Font
   const fontFileBold = await fetch(
-    "IBMPlexSansArabic-SemiBold.ttf"
+    "https://astro-blog-2udls3ghh-ibrahem-projects.vercel.app/IBMPlexSansArabic-SemiBold.ttf/IBMPlexSansArabic-SemiBold.ttf"
   );
   const fontBold: ArrayBuffer = await fontFileBold.arrayBuffer();
 
