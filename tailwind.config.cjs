@@ -54,8 +54,7 @@ module.exports = {
         transparent: "transparent",
       },
       fontFamily: {
-        mono: ["IBM Plex Sans Arabic", "Tahoma"];
-      src: url('IBMPlexSansArabic-SemiBold.ttf') format('truetype');
+        mono: ["IBM Plex Sans Arabic", "Tahoma"],
       },
 
       typography: {
