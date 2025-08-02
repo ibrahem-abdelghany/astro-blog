@@ -54,7 +54,7 @@ module.exports = {
         transparent: "transparent",
       },
       fontFamily: {
-        mono: ["IBM Plex Sans Arabic", "Tahoma"],
+        mono: ["Calibri","IBM Plex Sans Arabic", "Tahoma"],
       },
 
       typography: {
